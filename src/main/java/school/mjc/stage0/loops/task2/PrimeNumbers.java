@@ -7,6 +7,7 @@ public class PrimeNumbers {
             if(counter >= 0 && counter <= 9) {
                 System.out.println(counter);
             }
+            counter++;
         }
     }
 }

@@ -5,6 +5,7 @@ public class NaturalNumbers {
         int counter = 0;
         while(counter <= 9) {
             System.out.println(counter);
+            counter++;
         }
     }
 }
