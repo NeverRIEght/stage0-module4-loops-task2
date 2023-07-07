@@ -7,6 +7,7 @@ public class EvenNumbersPrinter {
             if(counter % 2 == 0) {
                 System.out.println(counter);
             }
+            counter++;
         }
     }
 }
