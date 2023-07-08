@@ -9,6 +9,7 @@ public class FactorialNumbers {
             if(result == 0) {
                 result = 1;
             }
+            System.out.println(result);
             counter++;
         }
     }
