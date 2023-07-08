@@ -2,6 +2,7 @@ package school.mjc.stage0.loops.task2;
 
 public class PowerOfTwo {
     public void printPower(int power) {
+        // 0
         boolean isNegative = power < 0;
         int counter = 0;
 
@@ -9,7 +10,7 @@ public class PowerOfTwo {
             System.out.println("too much power");
         } else {
             while(counter <= power) {
-                System.out.println(2^counter);
+                System.out.println(Math.pow(2, counter));
                 counter++;
             }
         }
